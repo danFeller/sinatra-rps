@@ -1,0 +1,11 @@
+<h1>We Played Scissors</h1>
+<h1>They Played <%= @comp %></h1>
+<% if @comp == "scissors" %>
+    <h1>We tied!</h1>
+<% elsif @comp == "rock" %>
+    <h1>We lost!</h1>
+<% else %>
+    <h1>We won!</h1>
+<% end %>
+
+<a href="/">Rules</a>
